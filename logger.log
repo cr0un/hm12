@@ -1,0 +1,27 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2022 00:53:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2022 00:53:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Выполняется поиск
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2022 00:53:25] "GET /search?s= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2022 00:53:25] "[36mGET /uploads/images/petrosyan_eugene_vaganovich.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2022 00:53:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2022 00:53:31] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2022 00:53:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2022 00:53:40] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2022 00:53:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2022 00:53:40] "GET /uploads/images/photo_2022-01-02_03-29-48.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2022 00:53:42] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2022 00:53:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2022 00:53:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2022 00:53:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2022 00:53:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Выполняется поиск
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2022 00:53:44] "GET /search?s= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2022 00:53:44] "[36mGET /uploads/images/petrosyan_eugene_vaganovich.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2022 00:53:44] "[36mGET /uploads/images/petrosyan_eugene_vaganovich.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2022 00:53:44] "[36mGET /uploads/images/photo_2022-01-02_03-29-48.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2022 00:53:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
